@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-belajar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "yarn tailwindcss build ./src/style.css -o ./dist/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "jest": "^26.6.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}
