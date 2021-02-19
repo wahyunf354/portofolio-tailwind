@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .title-skill {
+    @apply mb-3.5 text-4xl font-bold tracking-tighter;
+  }
+}
